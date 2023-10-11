@@ -43,6 +43,9 @@ This game is not intended for public play with random individuals; instead, it t
 
 **TOD 2** is your go-to choice for a virtual party game that's sure to spark laughter, surprises, and unforgettable moments.
 
+![Animation4](https://github.com/IbrahimEllahi/TOD-2-Online-Game/assets/85767913/75e446f4-4972-4eeb-9a37-a7d2eb457a3d)
+
+
 ## Setup
 
 To get started with **Truth Or Dare 2 (TOD 2)** and host your own game night with friends, follow these setup instructions:
