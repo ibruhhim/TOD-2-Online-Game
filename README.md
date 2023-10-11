@@ -2,13 +2,17 @@
 
 ## Introduction
 
-**Truth Or Dare 2 (TOD 2)** is the exciting sequel to the original Truth Or Dare game that was initially created as a fun project among friends. Unlike the first version, TOD 2 takes the game to the next level, introducing a new gaming experience using JavaScript and the powerful Socket.IO library. This enhancement allows all players to interact with their screens simultaneously, making it even more enjoyable and engaging.
+**Truth Or Dare 2 (TOD 2)** is the exciting sequel to the original Truth Or Dare game that was initially created as a fun project among friends. Unlike the first version, TOD 2 takes the game to the next level, introducing a new gaming experience using JavaScript and the powerful Socket.IO library. This enhancement allows all players to interact with their screens simultaneously, making it even more enjoyable and 
+
+![Main](https://github.com/IbrahimEllahi/TOD-2-Online-Game/assets/85767913/5394ce33-5df3-4b2f-a912-d0cff76207eb)
+
+engaging.
 
 ## Game Concept
 
 TOD 2 is a turn-based game with multiple modes, turn cycles, and round options, designed to provide hours of entertainment. The fundamental concept of the game is straightforward: players take turns choosing between "truth" or "dare." After making their selection, they receive a corresponding challenge or question that they must complete or answer. The catch is that while one player is in the hot seat, all other players get to rate their performance on a scale of 0 to 4 points.
 
-![Main Page](https://gyazo.com/19b4159627f7496f373c03953342d8f8)
+
 
 ## Gameplay
 
