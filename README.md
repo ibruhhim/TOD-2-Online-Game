@@ -29,6 +29,12 @@ The game continues with the cycle of turns, and it's a race to accumulate the mo
 
 - **Customizable Truths and Dares:** Create your own truths and dares to make the game even more unique and tailored to your group's personality.
 
+- **Redos:** In case a dare is too hard or a truth is too challenging, TOD 2 provides a "Redo" option. This allows players to have another attempt at completing the task without penalties, adding an extra layer of fun and excitement to the game.
+
+- **Fair Voting:** TOD 2 ensures fair play by not allowing players to vote for themselves. This ensures unbiased rating of the performances, making the game even more competitive and enjoyable. Voting buttons are greyed out for the player performing the dare or answering a truth.
+
+![Animation3](https://github.com/IbrahimEllahi/TOD-2-Online-Game/assets/85767913/74aca59c-2440-4718-a404-a7e2d7f18477)
+
 ## Recommendations
 
 **TOD 2** is all about fun and camaraderie, so it is best suited for friend groups looking to have a great time and take on challenging dares and truths. For an optimal experience, it's highly recommended to use a third-party chat software like Discord, allowing players to connect through voice chat and even use webcams to add a face-to-face dimension to the game.
