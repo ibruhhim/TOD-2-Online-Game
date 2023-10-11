@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  user-select: none;
+}
+
+body {
+  background-color: black;
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  
+}
+
+#page-content {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: 'Kablammo';
+  font-size: 10vh;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  width: 100%;
+
+}
+
+#title p{
+  margin: 10px;
+}
+
+#title p:nth-child(1) {
+  color: lime;
+  text-shadow: 4px 4px green;
+}
+
+#title p:nth-child(2){
+  transition: 1s;
+}
+
+#title p:nth-child(2):hover {
+  transform: rotate(-360deg);
+}
+#title p:nth-child(3) {
+  color: red;
+  text-shadow: 4px 4px darkred;
+  
+}
+
+#title p:nth-child(4) {
+  font-family: 'Permanent Marker';
+  text-decoration: underline;
+  text-shadow: 4px 4px gray;
+  transform: rotate(-15deg);
+  animation: tilt 2s ease-in-out infinite alternate;
+}
+
+@keyframes tilt {
+  0% {transform: rotate(-10deg);}
+  100% {transform: rotate(-30deg);}
+}
+
+
+#join-room input {
+    font-family: 'Roboto';
+    font-size: 30px;
+    width: 7vw;
+}
+
+#round-count {
+  margin: 10px;
+  font-family: 'Permanent Marker';
+  font-size: 2em;
+}
+
+#win-crown {
+  animation: crown 0.8s ease-in-out infinite alternate;
+}
+
+@keyframes crown {
+  0% {
+    transform: rotate(-20deg) translate(0px, -20px);
+  }
+  
+  100% {
+    transform: rotate(10deg) translate(0px, 20px);
+  }
+}
+
+
+#winner {
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 500%;
+  color: white;
+  height: 90%;
+  white-space: pre-wrap
+}
+
+.UI {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.UI div {
+  margin: 20px;
+}
+.UI button {
+  background-color: white;
+  font-size: 30px;
+  font-family: 'Shadows Into Light';
+  transition: 0.6s;
+  border: none;
+}
+
+.UI button:hover {
+  transform: translateY(-1.4vh);
+  background-color: gray;
+  color: white;
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-family: 'Shadows Into Light';
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+#vertical-bar {
+  background-color: white;
+  height: 400px;
+  width: 5px;
+}
+
+#settings div{
+  display: flex;
+  flex-direction: row;
+
+}
+
+#settings {
+  margin: 50px;
+  font-size: 50px;
+  width: 30%;
+}
+
+#settings div {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#settings span {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#settings button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  transition: 0.1s;
+  font-size: 70px;
+}
+
+#settings button:hover {
+  color: #2e2e2e;
+}
+
+#player-list {
+  margin: 50px;
+  font-size: 50px;
+}
+
+#start-btn-box {
+  display: flex;
+  flex-direction: row;
+
+}
+
+#start-btn-box button {
+  background-color: white;
+  color: black;
+  width: 50%;
+  font-size: 30px;
+  font-family: 'Shadows Into Light';
+  border: none;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+#start-btn-box button:hover {
+  color: white;
+  background-color: gray;
+  transform: translateY(-1.4vh);
+}
+
+#in-list {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  
+}
+
+#in-list i{
+    color: gold;
+    background-color: gold;
+}
+
+#code {
+  display: flex;
+  justify-content: right;
+  font-size: 30px;
+  font-family: 'Permanent Marker';
+
+}
+
+#code span:hover {
+  border: solid 2px white;
+}
+
+#code span {
+  padding: 10px;
+  border: dotted 2px white;
+  font-family: 'Roboto';
+
+}
+
+.game-content {
+  margin: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-content > div {
+  height: 80%;
+}
+
+#player-column {
+  width: 10%;
+
+}
+
+#game-box {
+  width: 50%;
+  background-color: white;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+#TOD-box {
+  width: 100%;
+  height: 90%;
+  font-family: 'Staatliches';
+}
+
+#points {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 10%;
+  justify-content: center;
+  
+}
+
+#TOD-choice {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#TOD-choice span {
+  font-size: 3em;
+}
+
+#turn-announcement {
+  font-size: 3em;
+}
+
+#turn-announcement span {
+  display: block;
+}
+
+#turn-announcement span:nth-child(1) {
+  animation: load 1s ease-in-out alternate .3s infinite;
+}
+
+#turn-announcement span:nth-child(2) {
+  animation: load 1s ease-in-out alternate .5s infinite;
+}
+
+#turn-announcement span:nth-child(3) {
+  animation: load 1s ease-in-out alternate .8s infinite;
+
+}
+
+@keyframes load {
+
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  100% {
+    transform: translateY(-.2em);
+    opacity: 0;
+  }
+  
+}
+
+#TOD-choice button {
+  font-size: 1.5em;
+  width: 10%;
+  margin: 0% 10%;
+  height: 30%;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  outline: none;
+  border: none;
+  font-family: 'Staatliches';
+  transition: .5s;
+}
+
+#TOD-choice button:hover {
+  filter: invert(1);
+}
+
+
+
+#TOD-box > div {
+  display: flex;
+  justify-content: center;
+  margin: 1em 0%;
+
+}
+
+
+#TOD-box #TOD-output {
+  font-family: 'Roboto';
+  font-size: 1.5em;
+  margin: 10% 5%;
+
+}
+
+#points > button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 10%;
+  font-family: 'Shadows Into Light';
+  border: 2px solid black;
+  font-size: 3em;
+  margin: 3% 1%;
+  transition: 0.5s;
+
+}
+
+#points > button:hover {
+  filter: brightness(0.5);
+}
+
+#points button:nth-child(1) {
+  background-color: red;
+}
+
+#points button:nth-child(2) {
+  background-color: orange;
+}
+#points button:nth-child(3) {
+  background-color: yellow;
+}
+#points button:nth-child(4) {
+  background-color: lime;
+}
+#points button:nth-child(5) {
+  background-color: green;
+}
+
+#chat-box {
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  margin: 1%;
+  border-top-left-radius: 2.5%;
+  border-top-right-radius: 2.5%;
+}
+
+#chat {
+  width: 100%;
+  height: 95%;
+  font-family: 'Roboto';
+  color: white;
+  overflow: auto;
+
+}
+
+#chat > div {
+  display: inline-block;
+  width: 90%;
+  height: 5%;
+  margin: 2% 5%;
+  overflow-wrap: break-word;
+}
+
+#send-chat {
+
+  border: 1px solid white;
+  width: 100%;
+  height: 5%;
+
+}
+
+#send-chat input {
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+  
+}
+
+#send-chat input::placeholder {
+  color: white;
+}
+
+#player-slide {
+  display: flex;
+  flex-direction: row;
+  margin: 8%;
+  border: 1px solid white;
+
+}
+
+#player-num {
+  width: 20%;
+  font-family: 'Permanent Marker';
+  color: white;
+  font-size: 1.4em;
+}
+
+#player-stats {
+  width: 80%;
+  font-family: 'Shadows Into Light';
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+#chat #server-msg {
+  color: white;
+  background-color: #595959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2% 0%;
+  width: 100%;
+  opacity: 0.5;
+  font-size: 0.9em;
+
+}
