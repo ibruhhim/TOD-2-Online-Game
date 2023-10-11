@@ -30,7 +30,7 @@ The game continues with the cycle of turns, and it's a race to accumulate the mo
 
 - **Redos:** In case a dare is too hard or a truth is too challenging, TOD 2 provides a "Redo" option. This allows players to have another attempt at completing the task without penalties, adding an extra layer of fun and excitement to the game.
 
-- **Fair Voting:** TOD 2 ensures fair play by not allowing players to vote for themselves. This ensures unbiased rating of the performances, making the game even more competitive and enjoyable. Voting buttons are greyed out for the player performing the dare or answering a truth.
+- **Fair Voting:** TOD 2 ensures fair play by not allowing players to vote for themselves. This ensures unbiased rating of the performances, making the game even more competitive and enjoyable. Voting buttons are greyed out for the player performing the dare or answering a truth (shown in the below gif).
 
 ![Animation3](https://github.com/IbrahimEllahi/TOD-2-Online-Game/assets/85767913/74aca59c-2440-4718-a404-a7e2d7f18477)
 (_Gif may contain glitched particle graphics, due to recording issues_)
