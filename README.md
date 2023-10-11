@@ -11,7 +11,7 @@
 TOD 2 is a turn-based game with multiple modes, turn cycles, and round options, designed to provide hours of entertainment. The fundamental concept of the game is straightforward: players take turns choosing between "truth" or "dare." After making their selection, they receive a corresponding challenge or question that they must complete or answer. The catch is that while one player is in the hot seat, all other players get to rate their performance on a scale of 0 to 4 points.
 
 ![Animation2](https://github.com/IbrahimEllahi/TOD-2-Online-Game/assets/85767913/afbae08f-eeb2-4400-ad01-6e09caf84de7)
-
+(_Gif may contain glitched particle graphics, due to recording issues_)
 
 ## Gameplay
 
