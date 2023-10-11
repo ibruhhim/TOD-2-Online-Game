@@ -8,6 +8,8 @@
 
 TOD 2 is a turn-based game with multiple modes, turn cycles, and round options, designed to provide hours of entertainment. The fundamental concept of the game is straightforward: players take turns choosing between "truth" or "dare." After making their selection, they receive a corresponding challenge or question that they must complete or answer. The catch is that while one player is in the hot seat, all other players get to rate their performance on a scale of 0 to 4 points.
 
+[!https://gyazo.com/19b4159627f7496f373c03953342d8f8]
+
 ## Gameplay
 
 The game continues with the cycle of turns, and it's a race to accumulate the most points. The player with the highest score at the end of the final round emerges as the ultimate winner.
